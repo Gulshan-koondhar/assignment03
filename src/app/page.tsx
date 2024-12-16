@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div className="max-w-screen-xl mx-auto py-4">
-      <div className="flex items-center justify-around">
+      <div className="flex flex-col sm:flex-row items-center justify-around gap-4">
         <div className={`max-w-[500px] ${inter.className}`}>
           <h1 className="font-bold text-4xl">Welcome to My Website</h1>
           <p className="font-normal text-2xl my-5 text-justify text-[#4c4c4c]">
